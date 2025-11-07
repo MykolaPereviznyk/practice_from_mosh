@@ -1,1 +1,1 @@
-# practice_from_mosh
+Hi! Here are my practical exercises from Mosh’s course.
