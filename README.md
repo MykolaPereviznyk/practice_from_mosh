@@ -44,7 +44,7 @@ Example:
    - The user enters text (or a link) and a filename.
    - The program generates a purple-on-black QR code.
    - The image is saved as a .png file.
-Example:
+## Example:
    - Enter the text or URL: https://github.com/MykolaPereviznyk
    - Enter the filename: my_qr
    - QR code saved as my_qr.png
