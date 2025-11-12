@@ -38,5 +38,27 @@ Hi! Here are my practical exercises from Mosh’s course.
    - Guess the number between 1 and 100: 63
    - Congratulations! You guessed the number.
      
-5. QR_Code_Generator
-6. Rock_Paper_Scissor
+4. QR_Code_Generator
+   Simple Python program that creates a QR code from any text or URL.
+   How it works:
+   - The user enters text (or a link) and a filename.
+   - The program generates a purple-on-black QR code.
+   - The image is saved as a .png file.
+   Example:
+   - Enter the text or URL: https://github.com/MykolaPereviznyk
+   - Enter the filename: my_qr
+   - QR code saved as my_qr.png
+     
+7. Rock_Paper_Scissor
+   Classic Rock–Paper–Scissors game against the computer.
+   How it works:
+   - You enter r (rock), p (paper), or s (scissors).
+   - The computer randomly picks one of the three.
+   - The game shows both choices and the result: win, lose, or tie.
+   - You can continue or quit.
+   Example:
+   - Rock, paper, or scissors? (r/p/s): r
+   - You chose Rock
+   - Computer chose Scissors
+   - You win
+   - Continue? (y/n): n
