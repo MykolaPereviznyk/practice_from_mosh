@@ -6,7 +6,7 @@ Hi! Here are my practical exercises from Mosh’s course.
    - User enters an amount.
    - Chooses source and target currencies.
    - Program prints the converted value.
-   Example:
+Example:
    - Enter the amount: 100
    - Source currency (USD/EUR/CAD): USD
    - Target currency (USD/EUR/CAD): EUR
@@ -18,7 +18,7 @@ Hi! Here are my practical exercises from Mosh’s course.
    - The user is asked whether they want to roll the dice.
    - If “y”, the program prints two random numbers between 1 and 6.
    - If “n”, the game ends with a goodbye message.
-   Example:
+Example:
    - Roll the dice? (y/n): y
    - (3, 6)
    - Roll the dice? (y/n): n
@@ -30,7 +30,7 @@ Hi! Here are my practical exercises from Mosh’s course.
    - The computer randomly chooses a number.
    - You enter your guess.
    - The program tells you if your guess is too high, too low, or correct.
-   Example:
+Example:
    - Guess the number between 1 and 100: 50
    - Too low!
    - Guess the number between 1 and 100: 75
@@ -44,19 +44,19 @@ Hi! Here are my practical exercises from Mosh’s course.
    - The user enters text (or a link) and a filename.
    - The program generates a purple-on-black QR code.
    - The image is saved as a .png file.
-   Example:
+Example:
    - Enter the text or URL: https://github.com/MykolaPereviznyk
    - Enter the filename: my_qr
    - QR code saved as my_qr.png
      
-7. Rock_Paper_Scissor
+5. Rock_Paper_Scissor
    Classic Rock–Paper–Scissors game against the computer.
    How it works:
    - You enter r (rock), p (paper), or s (scissors).
    - The computer randomly picks one of the three.
    - The game shows both choices and the result: win, lose, or tie.
    - You can continue or quit.
-   Example:
+Example:
    - Rock, paper, or scissors? (r/p/s): r
    - You chose Rock
    - Computer chose Scissors
