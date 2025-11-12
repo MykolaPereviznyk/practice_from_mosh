@@ -12,7 +12,31 @@ Hi! Here are my practical exercises from Mosh’s course.
    - Target currency (USD/EUR/CAD): EUR
    - 100.00 USD is equal to 85.00 EUR
 
-3. Dice_Rolling_Game
-4. Number_Guessing_Game
+2. Dice_Rolling_Game
+   Simple Python program that simulates rolling two dice.
+   How it works:
+   - The user is asked whether they want to roll the dice.
+   - If “y”, the program prints two random numbers between 1 and 6.
+   - If “n”, the game ends with a goodbye message.
+   Example:
+   - Roll the dice? (y/n): y
+   - (3, 6)
+   - Roll the dice? (y/n): n
+   - Thanks for playing!
+
+3. Number_Guessing_Game
+   A simple Python game where you try to guess a random number between 1 and 100.
+   How it works:
+   - The computer randomly chooses a number.
+   - You enter your guess.
+   - The program tells you if your guess is too high, too low, or correct.
+   Example:
+   - Guess the number between 1 and 100: 50
+   - Too low!
+   - Guess the number between 1 and 100: 75
+   - Too high!
+   - Guess the number between 1 and 100: 63
+   - Congratulations! You guessed the number.
+     
 5. QR_Code_Generator
 6. Rock_Paper_Scissor
