@@ -86,7 +86,7 @@ Example:
    - a full board (draw)
      
 Example:
-
+   ```text
    Player X's turn
    Enter row (0-2): 1
    Enter column (0-2): 1
@@ -96,3 +96,4 @@ Example:
    ---+---+---
       |   |
    Player O's turn...
+   ```
