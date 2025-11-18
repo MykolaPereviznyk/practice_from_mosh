@@ -8,12 +8,12 @@ Hi! Here are my practical exercises from Mosh’s course.
    - Program prints the converted value.
      
 Example:
-
+   ```text
    - Enter the amount: 100
    - Source currency (USD/EUR/CAD): USD
    - Target currency (USD/EUR/CAD): EUR
    - 100.00 USD is equal to 85.00 EUR
-
+   ```
 # 2. Dice_Rolling_Game
    Simple Python program that simulates rolling two dice.
    How it works:
@@ -22,12 +22,12 @@ Example:
    - If “n”, the game ends with a goodbye message.
      
 Example:
-
+   ```text
    - Roll the dice? (y/n): y
    - (3, 6)
    - Roll the dice? (y/n): n
    - Thanks for playing!
-
+   ```
 # 3. Number_Guessing_Game
    A simple Python game where you try to guess a random number between 1 and 100.
    How it works:
@@ -36,14 +36,14 @@ Example:
    - The program tells you if your guess is too high, too low, or correct.
      
 Example:
-
+   ```text
    - Guess the number between 1 and 100: 50
    - Too low!
    - Guess the number between 1 and 100: 75
    - Too high!
    - Guess the number between 1 and 100: 63
    - Congratulations! You guessed the number.
-     
+   ```  
 # 4. QR_Code_Generator
    Simple Python program that creates a QR code from any text or URL.
    How it works:
@@ -52,11 +52,11 @@ Example:
    - The image is saved as a .png file.
      
 Example:
-
+   ```text
    - Enter the text or URL: https://github.com/MykolaPereviznyk
    - Enter the filename: my_qr
    - QR code saved as my_qr.png
-     
+   ```
 # 5. Rock_Paper_Scissor
    Classic Rock–Paper–Scissors game against the computer.
    How it works:
