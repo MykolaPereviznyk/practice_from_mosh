@@ -87,13 +87,13 @@ Example:
      
 Example:
    ```text
-   Player X's turn
-   Enter row (0-2): 1
-   Enter column (0-2): 1
+   - Player X's turn
+   - Enter row (0-2): 1
+   - Enter column (0-2): 1
       |   |
    ---+---+---
       | X |
    ---+---+---
       |   |
-   Player O's turn...
+   - Player O's turn...
    ```
