@@ -72,3 +72,27 @@ Example:
    - Computer chose Scissors
    - You win
    - Continue? (y/n): n
+
+# 6. Tic_Tac_Toe
+   A console-based Tic Tac Toe game for two players, using colored X and O symbols.
+   How it works:
+   - The board is a 3×3 grid.
+   - Player X goes first, then players alternate.
+   - Players choose a row and column (0–2).
+   - The game checks for:
+   - winning rows  
+   - winning columns  
+   - winning diagonals  
+   - a full board (draw)
+     
+Example:
+
+   Player X's turn
+   Enter row (0-2): 1
+   Enter column (0-2): 1
+      |   |
+   ---+---+---
+      | X |
+   ---+---+---
+      |   |
+   Player O's turn...
