@@ -66,13 +66,13 @@ Example:
    - You can continue or quit.
      
 Example:
-
+   ```text
    - Rock, paper, or scissors? (r/p/s): r
    - You chose Rock
    - Computer chose Scissors
    - You win
    - Continue? (y/n): n
-
+   ```
 # 6. Tic_Tac_Toe
    A console-based Tic Tac Toe game for two players, using colored X and O symbols.
    How it works:
