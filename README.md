@@ -1,4 +1,4 @@
-Hi! Here are my practical exercises from Mosh’s course.
+Hi! Here are my practical exercises.
 
 # 1. Currency_Converter
    Simple Python program to convert amounts between USD, EUR, and CAD using fixed exchange rates.
