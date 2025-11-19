@@ -112,6 +112,7 @@ Example:
    - Remove a Task — displays the list and allows the user to remove a task by its number.
    - Input is validated to ensure the user enters a valid option and valid task numbers.
    - The program continues looping until the user selects “Exit”.
+     
 Example:
    ```text
    -------------------------------------------
