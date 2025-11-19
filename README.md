@@ -97,7 +97,7 @@ Example:
       |   |
    - Player O's turn...
    ```
-7. Todo_List_App
+# 7. Todo_List_App
    A simple console-based Todo List application that lets you view, add, and remove tasks from a list through a text-based menu.
    How it works:
    - The program starts with a predefined list of tasks.
