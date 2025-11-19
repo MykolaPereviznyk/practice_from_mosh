@@ -97,3 +97,72 @@ Example:
       |   |
    - Player O's turn...
    ```
+7. Todo_List_App
+   A simple console-based Todo List application that lets you view, add, and remove tasks from a list through a text-based menu.
+   How it works:
+   - The program starts with a predefined list of tasks.
+   - A menu is displayed with four options:
+   - View Tasks
+   - Add a Task
+   - Remove a Task
+   - Exit
+   - Depending on the user’s choice:
+   - View Tasks — prints all existing tasks or shows “Empty” if the list has no items.
+   - Add a Task — allows the user to enter a new task, which is added to the todo list.
+   - Remove a Task — displays the list and allows the user to remove a task by its number.
+   - Input is validated to ensure the user enters a valid option and valid task numbers.
+   - The program continues looping until the user selects “Exit”.
+   ```text
+   -------------------------------------------
+   Todo List Menu:
+   -------------------------------------------
+   1. View Tasks
+   2. Add a Task
+   3. Remove a Task
+   4. Exit
+   -------------------------------------------
+   Enter your choice: 1
+   -------------------------------------------
+   1. Grecery shopping
+   2. Reading
+   -------------------------------------------
+   
+   -------------------------------------------
+   Todo List Menu:
+   -------------------------------------------
+   1. View Tasks
+   2. Add a Task
+   3. Remove a Task
+   4. Exit
+   -------------------------------------------
+   Enter your choice: 2
+   Enter a new task: Finish Python exercises
+   -------------------------------------------
+   
+   -------------------------------------------
+   Todo List Menu:
+   -------------------------------------------
+   1. View Tasks
+   2. Add a Task
+   3. Remove a Task
+   4. Exit
+   -------------------------------------------
+   Enter your choice: 3
+   -------------------------------------------
+   1. Grecery shopping
+   2. Reading
+   3. Finish Python exercises
+   -------------------------------------------
+   Enter your task!: 1
+   -------------------------------------------
+   
+   -------------------------------------------
+   Todo List Menu:
+   -------------------------------------------
+   1. View Tasks
+   2. Add a Task
+   3. Remove a Task
+   4. Exit
+   -------------------------------------------
+   Enter your choice: 4
+   ```
