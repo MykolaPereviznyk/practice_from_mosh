@@ -24,20 +24,19 @@ def get_user_input():
 
 
 def main():
-    while True:
-        filename = str(input("Enter the filename to open or create: ").strip())
-        try:
-            if os.path.exists(filename):
-                print(read_file(filename))
-            else:
-                write_file(filename, '')
-
-            content = get_user_input()
-            write_file(filename, content)
-            print(f"{filename} saved.")
-        except OSError:
-            print(f"{filename} could not be opened.")
+    filename = str(input("Enter the filename to open or create: ").strip())
+    try:
+        if os.path.exists(filename):
+            print(read_file(filename))
+        else:
+            write_file(filename, '')
+        content = get_user_input()
+        write_file(filename, content)
+        print(f"{filename} saved.")
+    except OSError:
+        print(f"{filename} could not be opened.")
 
 
 if __name__ == "__main__":
     main()
+
