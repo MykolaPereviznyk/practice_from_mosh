@@ -168,44 +168,6 @@ Example:
    -------------------------------------------
    Enter your choice: 4
    ```
-
-# 8. Simple_Text_Editor
-   A basic console-based text editor that allows you to open, create, modify, and save text files.
-   The program reads the contents of a file (if it exists), lets the user enter new text, and saves the updated content when the user types SAVE.
-   How it works:
-   - The user enters a filename to open or create.
-   - If the file exists:
-   - Its contents are displayed.
-   - If the file does not exist:
-   - A new empty file is created.
-   - The user can then type any number of lines.
-   - When the user types SAVE on a new line:
-   - All the entered text is saved to the file.
-   - The program returns to the beginning and asks for a filename again.
-   - If the file cannot be accessed, an error message is shown.
-
-Example:
-```text
-Enter the filename to open or create: notes.txt
-Shopping list:
-- Milk
-- Bread
-
-Enter your text (type SAVE on a new line to save and exist):
-Add eggs
-Add apples
-SAVE
-notes.txt saved.
-
-Enter the filename to open or create: todo.txt
-
-Enter your text (type SAVE on a new line to save and exist):
-Write documentation
-Review Python code
-SAVE
-todo.txt saved.
-
-```
 # 8. Simple_Text_Editor
    A basic console-based text editor that allows you to open, create, modify, and save text files.
    The program reads the contents of a file (if it exists), lets the user enter new text, and saves the updated content when the user types SAVE.
