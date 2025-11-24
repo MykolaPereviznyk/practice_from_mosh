@@ -204,50 +204,51 @@ Review Python code
 SAVE
 todo.txt saved.
 ```
-# 9. Dice_Game_Extended
+# 9. Dice_Game
    A simple two-player dice game where each player tries to reach 100 points.
-   Players roll a die up to three times per turn, choosing whether to roll again.
-   Each roll adds to the player's score, unless the roll is 1, which resets the turn score to 0.
+   Players can roll the die up to three times per turn and decide whether to roll again after each roll.
+   If the player rolls a 1, their turn score becomes 0 and the turn ends immediately.
 
    How it works:
    - Two players start with a score of 0.
-   - On each turn:
+   - On each player's turn:
      - The player rolls the die.
      - The result is printed.
      - If the roll is 1:
-       - The turn score becomes 0.
-       - The turn ends immediately.
+       - The player's turn score becomes 0.
+       - The turn ends right away.
      - Otherwise:
-       - The roll is added to the player's score.
-       - The player may choose to roll again (up to three rolls per turn).
-   - After each turn, the total scores are displayed.
-   - The first player to reach 100 or more wins.
+       - The rolled number is added to the player's score.
+       - The player may choose to roll again (maximum three rolls per turn).
+   - After both players finish their turns, the current total scores are displayed.
+   - The first player to reach 100 points or more wins the game.
 
 Example:
 ```text
 Player 1's turn
-You rolled a 20
+You rolled a 4
 Roll again? (y/n): y
-You rolled a 15
+You rolled a 6
 Roll again? (y/n): n
 
-Current: Player 1: 35, Player 2: 0
+Current: Player 1: 10, Player 2: 0
 
 Player 2's turn
-You rolled a 5
-Roll again? (y/n): y
 You rolled a 1
 Player 2 scored 0 points this turn.
 
-Current: Player 1: 35, Player 2: 0
+Current: Player 1: 10, Player 2: 0
 
 Player 1's turn
-You rolled a 45
+You rolled a 5
+Roll again? (y/n): y
+You rolled a 3
 Roll again? (y/n): n
 
-Current: Player 1: 80, Player 2: 0
+Current: Player 1: 18, Player 2: 0
 
 Player 1's turn
-You rolled a 25
-Player 1 wins!
+You rolled a 6
+Roll again? (y/n): n
+player 1 wins!
 ```
