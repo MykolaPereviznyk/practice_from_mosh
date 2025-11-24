@@ -2,7 +2,7 @@ import random
 
 
 def roll_die():
-    return random.randint(2, 50)
+    return random.randint(1, 6)
 
 
 def get_score(player_score):
@@ -39,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
