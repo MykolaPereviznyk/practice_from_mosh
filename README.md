@@ -252,7 +252,7 @@ You rolled a 6
 Roll again? (y/n): n
 player 1 wins!
 ```
-10. Cows_and_Bulls  
+# 10. Cows_and_Bulls  
    A logic-based number-guessing game where you try to guess a 4-digit number with unique digits.
 
    How it works:
@@ -274,7 +274,7 @@ Example:
    0 cows, 4 bulls
    Congratulations! You guessed the correct number
 ```
-11. Password_Strength_Checker  
+# 11. Password_Strength_Checker  
    Simple Python program that checks how strong a password is.
 
    How it works:
