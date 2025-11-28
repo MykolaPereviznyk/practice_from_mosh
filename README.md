@@ -252,3 +252,39 @@ You rolled a 6
 Roll again? (y/n): n
 player 1 wins!
 ```
+10. Cows_and_Bulls  
+   A logic-based number-guessing game where you try to guess a 4-digit number with unique digits.
+
+   How it works:
+   - The computer generates a random 4-digit number (all digits are different).
+   - You enter your guess (must also contain 4 unique digits).
+   - The program returns:
+     * Bulls — correct digit in the correct position
+     * Cows — correct digit but in the wrong position
+   - Goal: guess the number and get 4 bulls.
+
+Example:
+```text
+   I have generated a 4-digit number with unique digits. Try to guess it!
+   Guess: 1234
+   1 cows, 0 bulls
+   Guess: 4271
+   2 cows, 1 bulls
+   Guess: 4721
+   0 cows, 4 bulls
+   Congratulations! You guessed the correct number
+```
+11. Password_Strength_Checker  
+   Simple Python program that checks how strong a password is.
+
+   How it works:
+   - You enter a password.
+   - The program evaluates length, upper/lowercase letters, digits, and special symbols.
+   - It prints the strength level: Very Weak, Weak, Medium, Hard, or Very Hard.
+
+Example:
+```text
+   - Enter a password: Abc123!
+   - Password strength: Hard
+```
+
