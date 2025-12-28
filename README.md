@@ -288,7 +288,7 @@ Example:
    - Password strength: Hard
 ```
 
-# 9. Password_Generator  
+# 12. Password_Generator  
 Simple Python program that generates a random password based on user preferences.
 
 How it works:
