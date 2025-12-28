@@ -288,6 +288,30 @@ Example:
    - Password strength: Hard
 ```
 
+# 13. Hangman_Game  
+Classic Hangman word guessing game.
+
+How it works:
+- The program loads words from a text file.
+- A random word is selected.
+- You guess one letter at a time.
+- Correct letters are revealed in the word.
+- Wrong guesses reduce the number of remaining attempts.
+- You win if you guess all letters before running out of attempts.
+
+Example:
+```text
+   _ _ _ _ _
+   Enter a letter: a
+   Good guess
+   _ a _ _ _
+   Enter a letter: z
+   Wrong guess
+   _ a _ _ _
+   ...
+   Congratulations! You guessed the word
+```
+
 # 14. Slot_Machine_Game  
 Simple Python slot machine game where you place bets and spin the reels.
 
