@@ -288,3 +288,30 @@ Example:
    - Password strength: Hard
 ```
 
+# 14. Slot_Machine_Game  
+Simple Python slot machine game where you place bets and spin the reels.
+
+How it works:
+- You enter your starting balance.
+- Place a bet for each round.
+- The slot machine spins three symbols.
+- If two symbols match — you win 2x your bet.
+- If three symbols match — you win 3x your bet.
+- If no symbols match — you lose your bet.
+- The game continues until you quit or run out of money.
+
+Example:
+```text
+   Enter your starting balance: $100
+   Welcome to the slot Machine Game!
+   You start with a balance of $100
+
+   Current balance: $100
+   Enter your bet amount: $10
+   🍒|🍒|⭐
+   You won $20
+
+   Do you want to play again? (y/n): n
+   You walk away with $110.
+```
+
