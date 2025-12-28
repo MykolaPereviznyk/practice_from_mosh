@@ -288,6 +288,26 @@ Example:
    - Password strength: Hard
 ```
 
+# 9. Password_Generator  
+Simple Python program that generates a random password based on user preferences.
+
+How it works:
+- You choose the password length.
+- Select whether to include:
+  - Uppercase letters
+  - Numbers
+  - Special characters
+- The program generates and prints a random password.
+
+Example:
+```text
+   Enter password length: 12
+   Include uppercase letters? (y/n): y
+   Include numbers? (y/n): y
+   Include special characters? (y/n): n
+   aBf9kQw3Lm2P
+```
+
 # 13. Hangman_Game  
 Classic Hangman word guessing game.
 
