@@ -359,3 +359,31 @@ Example:
    You walk away with $110.
 ```
 
+# 10. ATM_Simulator  
+Simple Python ATM simulation using classes.
+
+How it works:
+- The program starts with a balance of $0.
+- You can choose one of the following options:
+  1. Check current balance
+  2. Deposit money
+  3. Withdraw money
+  4. Exit the program
+- Deposits and withdrawals are validated.
+- The balance updates after each operation.
+
+Example:
+```text
+   Welcome to the ATM!
+   1. Check Balance
+   2. Deposit
+   3. Withdraw
+   4. Exit
+   Please choose an option: 2
+   Enter the amount to deposit: 100
+   Successfully deposited $100.0.
+```
+   Welcome to the ATM!
+   Please choose an option: 1
+   Your current balance is: $100
+
