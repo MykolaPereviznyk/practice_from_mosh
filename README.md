@@ -359,7 +359,7 @@ Example:
    You walk away with $110.
 ```
 
-# 10. ATM_Simulator  
+# 15. ATM_Simulator  
 Simple Python ATM simulation using classes.
 
 How it works:
@@ -382,8 +382,9 @@ Example:
    Please choose an option: 2
    Enter the amount to deposit: 100
    Successfully deposited $100.0.
-```
+
    Welcome to the ATM!
    Please choose an option: 1
    Your current balance is: $100
+```
 
